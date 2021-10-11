@@ -111,3 +111,30 @@ strong {
 .close {
     clear: both;
 }
+
+@media(max-width: 780px) {
+    .card {
+        width: 95%;
+        margin: 2.5%;
+    }
+    #karma {
+        margin: 2.5%;
+    }
+    #supervisor, #calculator {
+        top: 0;
+    }
+}
+
+@media(max-width: 625px) {
+    #top-texts {
+        width: 95%;
+        margin: 2.5%;
+    }
+    #top-texts h1 {
+        font-size: 20px;
+    }
+    
+    #top-texts p {
+        font-size: 13px;
+    }
+}
