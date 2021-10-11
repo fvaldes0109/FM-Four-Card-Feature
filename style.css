@@ -57,13 +57,14 @@ strong {
 
 .card {
     float: left;
-    width: 30%;
+    width: 24%;
     position: relative;
     background-color: white;
-    height: 250px;
+    height: 150px;
     border-radius: 5px;
     margin: 1.66%;
     box-shadow: hsla(229, 6%, 66%, 0.219) 0px 10px 10px 5px;
+    padding: 30px 3%;
 }
 
 #team-builder {
@@ -85,6 +86,26 @@ strong {
 #karma {
     border-top: 5px solid hsl(34, 97%, 64%);
     margin: 1.66% 35%;
+}
+
+.card h4 {
+    font-family: Poppins-600;
+    color:hsl(234, 12%, 34%);
+    font-size: 18px;
+}
+
+.card p {
+    font-family: Poppins-200;
+    font-size: 12px;
+    color:hsl(234, 12%, 34%);
+    line-height: 1.6;
+}
+
+.card img {
+    width: 50px;
+    float: right;
+    position: relative;
+    top: 35px;
 }
 
 .close {
